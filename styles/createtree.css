@@ -1,0 +1,47 @@
+.ct-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-grow: 1;
+    background-color: #ffdec7;
+}
+
+.ct-content {
+    padding: 2.5rem 3rem 2.5rem 3rem;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.ct-bg {
+    position: absolute;
+    z-index: 0;
+}
+
+.ct-content > h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #d1c7ff;
+    margin: 0;
+}
+
+.ct-button {
+    background-color: #d1c7ff;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    color: #494f9e;
+}
+
+.ct-button > p {
+    font-size: large;
+    font-weight: 500;
+    margin: 0;
+}

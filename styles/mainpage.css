@@ -1,0 +1,52 @@
+.mainpage-container {
+    width: 100vw;
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    overflow: hidden;
+    display: flex;
+    flex-grow: 1;
+}
+
+.mainpage-content {
+    padding: 2.5rem 3rem 2.5rem 3rem;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.mainpage-bg {
+    position: absolute;
+    z-index: 0;
+}
+
+.mainpage-content > h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #d1c7ff;
+    margin: 0;
+}
+
+.mainpage-content > p {
+    text-align: center;
+    color: #d1c7ff;
+}
+
+.mainpage-button {
+    background-color: #d1c7ff;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    color: #4f499e;
+}
+
+.mainpage-button > p {
+    font-size: large;
+    font-weight: 500;
+    margin: 0;
+}
