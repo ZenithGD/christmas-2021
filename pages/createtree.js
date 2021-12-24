@@ -15,14 +15,6 @@ function createtree() {
                 />
             </Head>
             <div className="ct-container">
-                <Image
-                    priority={true}
-                    className='mainpage-bg'
-                    height="100%"
-                    layout="fill"
-                    objectFit="cover"
-                    src="/christmas-bg.png"
-                />
                 <div className='ct-content'>
                     <h1 style={{"font-family": 'Mountains of Christmas'}}>Elige tus deseos</h1>
                     <ListOfWishes containerStyle="ct-list-container" />

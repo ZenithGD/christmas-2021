@@ -23,7 +23,7 @@ export default function Home() {
                 />
                 <Snowfall color="#d1c7ff" snowflakeCount={50}/>
                 <div className='mainpage-content'>
-                    <h1 style={{"font-family": 'Mountains of Christmas'}}>El árbol de los deseos</h1>
+                    <h1 style={{"fontFamily": 'Mountains of Christmas'}}>El árbol de los deseos</h1>
                     <p>
                     text text text text text text text text text text text 
                     text text text text text text text text text text text 

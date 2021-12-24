@@ -1,14 +1,13 @@
 .ct-container {
     width: 100vw;
-    height: 100vh;
     overflow: hidden;
     display: flex;
     flex-grow: 1;
-    background-color: #ffdec7;
+    background-color: #d1c7ff;
 }
 
 .ct-content {
-    padding: 2.5rem 3rem 2.5rem 3rem;
+    padding: 2.5rem 3rem;
     display: flex;
     flex-grow: 1;
     flex-direction: column;
@@ -17,31 +16,89 @@
     z-index: 1;
 }
 
+@media (min-width: 1000px) {
+    .ct-content {
+        padding: 2.5rem 7.5rem;
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
+    }
+}
+
 .ct-bg {
     position: absolute;
     z-index: 0;
 }
 
 .ct-content > h1 {
+    margin: 0;
     text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
-    color: #d1c7ff;
-    margin: 0;
+    color: #494f9e;
 }
 
 .ct-button {
-    background-color: #d1c7ff;
+    background-color: #494f9e;
     border-radius: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0.5rem 1rem;
-    color: #494f9e;
+    color: #d1c7ff;
 }
 
 .ct-button > p {
     font-size: large;
     font-weight: 500;
     margin: 0;
+}
+
+.ct-list-container {
+    margin: 1rem 0;
+    width: 100%;
+    display: grid;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 300px) {
+    .ct-list-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 600px) {
+    .ct-list-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .ct-list-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.wish-container {
+    position: relative;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c8bcfd;
+    border-radius: 1rem ;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.wish-container > h2 {
+    font-size: large;
+    color: #494f9e;
+    margin: 0 0 1rem 0;
 }

@@ -3,10 +3,52 @@ import React, { useState, useContext, createContext } from 'react'
 const WishContext = createContext()
 
 const wishList = [
-
+    {
+        name: "Deseo",
+        desc: "text text text",
+        src:  "/decos/acebo.png",
+        added: false
+    },
+    {
+        name: "Deseo",
+        desc: "text text text",
+        src:  "/decos/angel.png",
+        added: false
+    },
+    {
+        name: "Deseo",
+        desc: "text text text",
+        src:  "/decos/bola-arbol.png",
+        added: false
+    },
+    {
+        name: "Deseo",
+        desc: "text text text",
+        src:  "/decos/bola-copo.png",
+        added: false
+    },
+    {
+        name: "Deseo",
+        desc: "text text text",
+        src:  "/decos/bola-ornam1.png",
+        added: false
+    },
+    {
+        name: "Deseo",
+        desc: "text text text",
+        src:  "/decos/bola-ornam2.png",
+        added: false
+    },
+    {
+        name: "Deseo",
+        desc: "text text text",
+        src:  "/decos/bola-reno.png",
+        added: false
+    },
 ]
 
 export function WishProvider({children}) {
+
     const [wishes, setWishes] = useState(wishList)
 
     const value = {wishes, setWishes}
