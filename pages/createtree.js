@@ -7,7 +7,7 @@ import { WishProvider }from '../context/WishContext'
 
 function createtree() {
     return (
-        <WishProvider>
+        <>
             <Head>
                 <link
                 href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap"
@@ -19,13 +19,13 @@ function createtree() {
                     <h1 style={{"font-family": 'Mountains of Christmas'}}>Elige tus deseos</h1>
                     <ListOfWishes containerStyle="ct-list-container" />
                     <Link href="#">
-                        <a className="ct-button">
+                        <button className="ct-button">
                             <p>Comenzar</p>
-                        </a>
+                        </button>
                     </Link>
                 </div>
             </div>
-        </WishProvider>
+        </>
     )
 }
 

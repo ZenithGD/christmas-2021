@@ -9,7 +9,7 @@ function ListOfWishes({containerStyle}) {
     return (
         <div className={containerStyle}>
             {wishes.map((wish, idx) =>
-                <Wish content={wish}/>)}
+                <Wish id={idx} content={wish}/>)}
         </div>
     )
 }

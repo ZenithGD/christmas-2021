@@ -50,10 +50,14 @@ const wishList = [
 export function WishProvider({children}) {
 
     const [wishes, setWishes] = useState(wishList)
-
-    const value = {wishes, setWishes}
+    const toggleWish = (id) => {
+        let newWishes = [...wishes]
+        newWishes[id].added = !newWishes[id].added
+        setWishes(newWishes)
+    }
+    const value = {wishes, toggleWish}
     return <WishContext.Provider value={value}>{children}</WishContext.Provider>
-  }
+}
 
 export function useWishContext() {
     const context = useContext(WishContext)
