@@ -45,6 +45,30 @@ const wishList = [
         src:  "/decos/bola-reno.png",
         added: false
     },
+    {
+        name: "Deseo",
+        desc: "text text text",
+        src:  "/decos/bola-papa-noel.png",
+        added: false
+    },
+    {
+        name: "Deseo",
+        desc: "text text text",
+        src:  "/decos/campanita.png",
+        added: false
+    },
+    {
+        name: "Deseo",
+        desc: "text text text",
+        src:  "/decos/reno.png",
+        added: false
+    },
+    {
+        name: "Deseo",
+        desc: "text text text",
+        src:  "/decos/tambor.png",
+        added: false
+    },
 ]
 
 export function WishProvider({children}) {

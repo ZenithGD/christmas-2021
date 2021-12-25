@@ -1,0 +1,97 @@
+.tp-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+}
+
+.tp-content {
+    padding: 2.5rem 3rem 0 3rem;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+@media (min-width: 1000px) {
+    .tp-content {
+        padding: 2.5rem 7.5rem 0 7.5rem;
+        position: relative;
+        height: 100%;
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
+    }
+}
+
+.tp-bg {
+    position: absolute;
+    z-index: 0;
+}
+
+.tp-content > h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 700;
+    color: #d1c7ff;
+    margin: 0;
+}
+
+.tp-content > p {
+    text-align: center;
+    color: #d1c7ff;
+}
+
+.tp-button {
+    background-color: #d1c7ff;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    color: #4f499e;
+}
+
+.tp-button > p {
+    font-size: large;
+    font-weight: 500;
+    margin: 0;
+}
+
+.tree-container {
+    position: relative;
+    bottom: 0;
+    height: 80%;
+    width: 100%;
+    z-index: 2;
+}
+
+.tree-img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.tp-footer {
+    background-color: #d1c7ff;
+    z-index: 5;
+    height: 5rem;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
