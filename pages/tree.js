@@ -4,7 +4,7 @@ import Snowfall from 'react-snowfall'
 import Tree from '../components/Tree'
 import TreeFooter from '../components/TreeFooter'
 
-function tree() {
+function TreePage() {
 
     return (
         <div className='tp-container'>
@@ -25,4 +25,4 @@ function tree() {
     )
 }
 
-export default tree
+export default TreePage

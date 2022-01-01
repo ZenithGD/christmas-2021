@@ -5,7 +5,7 @@ import ListOfWishes from '../components/ListOfWishes'
 import { useWishContext } from '../context/WishContext'
 import toast from 'react-hot-toast'
 
-function createtree() {
+function Createtree() {
 
     const router = useRouter();
     const { wishes } = useWishContext()
@@ -42,4 +42,4 @@ function createtree() {
     )
 }
 
-export default createtree
+export default Createtree

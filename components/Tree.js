@@ -17,6 +17,7 @@ function Tree() {
                 {wishes.filter(item => item.added).map((item, key) => (
                     <>
                         <img
+                            key={key}
                             src={item.src}
                             style={{width:"2rem", 
                                     height:"2rem", 
