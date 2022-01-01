@@ -12,8 +12,11 @@ function TreeFooter() {
                 <div>
                     Creado por Darío Marcos Casalé - 2021
                 </div>
-                <div>
-                    Icons made by <a href="https://www.flaticon.com/authors/tulpahn" title="tulpahn">tulpahn</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+                <div style={{fontSize: "small"}}>
+                    Iconos hechos por <a href="https://www.flaticon.com/authors/tulpahn" title="tulpahn">tulpahn</a> de <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+                </div>
+                <div style={{fontSize: "small"}}>
+                    Desplegado en <a href="https://vercel.com" title="vercel">Vercel</a> desde <a href="https://github.com/ZenithGD/christmas-2021" title="Github">Github</a>
                 </div>
             </div>
         </div>
