@@ -1,9 +1,10 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useWishContext } from '../../context/WishContext'
 import { useRouter } from 'next/router'
+import toast from 'react-hot-toast'
 
 function WishFocus() {
 
@@ -14,6 +15,11 @@ function WishFocus() {
     const handleClick = (e) => {
         e.preventDefault();
         toggleWish(wish)
+        if ( wishes[wish].added ) {
+            toast.success(`¡Se ha añadido '${wishes[wish].name}' a la lista!`)
+        } else {
+            toast.success(`¡Se ha quitado '${wishes[wish].name}' de la lista!`)
+        }
         router.push("/createtree")
     }
 

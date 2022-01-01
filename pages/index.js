@@ -12,16 +12,8 @@ export default function Home() {
                 rel="stylesheet"
                 />
             </Head>
-            <Image
-                priority={true}
-                className='mainpage-bg'
-                height="100vh"
-                layout="fill"
-                objectFit="cover"
-                src="/christmas-bg.png"
-            />
             <div className="mainpage-container">
-                <Snowfall color="#d1c7ff" snowflakeCount={50}/>
+                <Snowfall style={{zIndex: 2}}color="#d1c7ff" snowflakeCount={50}/>
                 <div className='mainpage-content'>
                     <h1 style={{"fontFamily": 'Mountains of Christmas'}}>El árbol de los deseos</h1>
                     <p>

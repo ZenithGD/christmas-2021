@@ -1,9 +1,10 @@
 .mainpage-container {
     width: 100vw;
-    height: 90vh;
-    overflow: hidden;
+    height: 100vh;
     display: flex;
     flex-grow: 1;
+    background-color: #4f499e;
+    position: relative;
 }
 
 .mainpage-content {
@@ -28,11 +29,6 @@
         align-items: center;
         z-index: 1;
     }
-}
-
-.mainpage-bg {
-    position: absolute;
-    z-index: 0;
 }
 
 .mainpage-content > h1 {
