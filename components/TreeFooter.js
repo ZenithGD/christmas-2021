@@ -5,7 +5,7 @@ function TreeFooter() {
     return (
         <div style={{width: "100%"}}>
             <img
-                style={{position: "absolute", width: "100%", transform: "translateY(-100%)", zIndex: 5}}
+                style={{position: "absolute", width: "100%", transform: "translateY(-99%)", zIndex: 5}}
                 src="/wave-haikei.png"
             />
             <div className='tp-footer'>
