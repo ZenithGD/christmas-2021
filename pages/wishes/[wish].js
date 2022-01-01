@@ -32,7 +32,9 @@ function WishFocus() {
                 />
             </Head>
             <div className="ct-container">
-                <div className='ct-content'>
+                { wishes[wish] === undefined ? (
+                    <p>Cargando...</p>
+                ) : (<div className='ct-content'>
                     <h1 style={{"font-family": 'Mountains of Christmas'}}>{wishes[wish].name}</h1>
                     <div>
                         <Image
@@ -49,7 +51,7 @@ function WishFocus() {
                             <p>{wishes[wish].added ? "Quitar" : "Añadir"}</p>
                         </button>
                     </Link>
-                </div>
+                </div>)}
             </div>
         </>
     )
