@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 
 function TreeFooter() {
     return (
@@ -9,8 +8,8 @@ function TreeFooter() {
                 src="/wave-haikei.png"
             />
             <div className='tp-footer'>
-                <div>
-                    Creado por Darío Marcos Casalé <b>2021</b>
+                <div style={{ margin: "1rem 0" }}>
+                    Creado por Darío Marcos Casalé - 2021
                 </div>
                 <div style={{fontSize: "small"}}>
                     Iconos hechos por <a href="https://www.flaticon.com/authors/tulpahn" title="tulpahn">tulpahn</a> de <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
