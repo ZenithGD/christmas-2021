@@ -9,15 +9,24 @@ function Tree() {
 
     return (
         <div className='tree-container'>
-            <Image
-                priority={true}
-                className='mainpage-bg'
-                layout="fill"
-                objectFit="scale-down"
+            <img
+                style={{zIndex: 5, objectFit: "scale-down", position: 'absolute', height: "100%"}}
                 src="/arbolnavidad.png"
             />
             <div className='wishes-container'>
-
+                {wishes.filter(item => item.added).map((item, key) => (
+                    <>
+                        <img
+                            src={item.src}
+                            style={{width:"2rem", 
+                                    height:"2rem", 
+                                    transform: `translate( ${(Math.random() * 2 - 1) * key * 0.8}rem, ${Math.random() * 2 - 1}rem)`,
+                                    filter: "drop-shadow(0px 5px 10px #212121)" }}
+                            objectFit='scale-down'
+                            layout='responsive'
+                        />
+                    </>
+                ))}
             </div>
         </div>
     )

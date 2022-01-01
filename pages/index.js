@@ -14,6 +14,7 @@ export default function Home() {
             </Head>
             <div className="mainpage-container">
                 <Snowfall style={{zIndex: 2}}color="#d1c7ff" snowflakeCount={50}/>
+                <Snowfall style={{zIndex: 1}} color="#8147ff" snowflakeCount={75}/>
                 <div className='mainpage-content'>
                     <h1 style={{"fontFamily": 'Mountains of Christmas'}}>El árbol de los deseos</h1>
                     <p>
