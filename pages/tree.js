@@ -14,7 +14,7 @@ function tree() {
                 rel="stylesheet"
                 />
             </Head>
-            <Snowfall style={{zIndex: 5}}color="#d1c7ff" snowflakeCount={50}/>
+            <Snowfall style={{zIndex: 5}} color="#d1c7ff" snowflakeCount={50}/>
             <div className='tp-content'>
                 <h1 style={{"fontFamily": 'Mountains of Christmas'}}>¡Feliz Navidad y feliz año 2022!</h1>
                 <Tree />

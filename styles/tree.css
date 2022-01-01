@@ -85,7 +85,12 @@
     z-index: 2;
 }
 
+.tp-container {
+    width: 100%;
+}
+
 .tp-footer {
+    position: relative;
     background-color: #d1c7ff;
     z-index: 5;
     height: 5rem;
@@ -95,4 +100,11 @@
     align-items: center;
     justify-content: space-around;
     text-align: center;
+}
+
+.tp-snow {
+    position: "absolute";
+    width: "100%";
+    transform: "translateY(-100%)";
+    z-index: 5;
 }

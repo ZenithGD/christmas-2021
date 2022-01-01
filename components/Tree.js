@@ -16,6 +16,9 @@ function Tree() {
                 objectFit="scale-down"
                 src="/arbolnavidad.png"
             />
+            <div className='wishes-container'>
+
+            </div>
         </div>
     )
 }
