@@ -7,8 +7,9 @@
 }
 
 .ct-content {
-    padding: 2.5rem 3rem;
     min-height: 100vh;
+    margin: 3rem;
+    width: 100%;
     display: flex;
     flex-grow: 1;
     flex-direction: column;
@@ -19,7 +20,6 @@
 
 @media (min-width: 1000px) {
     .ct-content {
-        padding: 2.5rem 7.5rem;
         display: flex;
         flex-grow: 1;
         flex-direction: column;
@@ -35,7 +35,7 @@
 }
 
 .ct-content > h1 {
-    margin: 0;
+    margin: 1rem 0;
     text-align: center;
     font-size: 2.5rem;
     font-weight: 700;
@@ -43,6 +43,7 @@
 }
 
 .ct-button {
+    margin: 1rem 0;
     background-color: #494f9e;
     border-radius: 10rem;
     display: flex;
@@ -60,29 +61,30 @@
 }
 
 .ct-list-container {
-    margin: 1rem 0;
     width: 100%;
+    margin: 1rem 0;
     display: grid;
+    align-items: center;
     grid-column-gap: 1.5rem;
     grid-row-gap: 1.5rem;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 @media (min-width: 300px) {
     .ct-list-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 
 @media (min-width: 600px) {
     .ct-list-container {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
 
 @media (min-width: 900px) {
     .ct-list-container {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 }
 
@@ -93,6 +95,7 @@
     width: 100%;
     padding: 1rem;
     flex-direction: column;
+    justify-items: center;
     align-items: center;
     background-color: #c8bcfd;
     border-width: 0;
@@ -103,6 +106,7 @@
 .wish-container > h2 {
     font-size: large;
     color: #494f9e;
+    text-align: center;
     margin: 0 0 1rem 0;
 }
 

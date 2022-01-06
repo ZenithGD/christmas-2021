@@ -17,7 +17,7 @@ function TreePage() {
             <Snowfall style={{zIndex: 10}} color="#d1c7ff" snowflakeCount={45}/>
             <Snowfall style={{zIndex: 1}} color="#8147ff" snowflakeCount={75}/>
             <div className='tp-content'>
-                <h1 style={{"fontFamily": 'Mountains of Christmas'}}>¡Feliz Navidad y feliz año 2022!</h1>
+                <h1 style={{"fontFamily": 'Mountains of Christmas'}}>¡Feliz año 2022!</h1>
                 <Tree />
             </div>
             <TreeFooter />
