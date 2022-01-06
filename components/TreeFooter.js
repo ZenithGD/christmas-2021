@@ -8,7 +8,7 @@ function TreeFooter() {
                 src="/wave-haikei.png"
             />
             <div className='tp-footer'>
-                <div style={{ margin: "1rem 0" }}>
+                <div style={{fontSize: "medium" }}>
                     Creado por Darío Marcos Casalé - 2021
                 </div>
                 <div style={{fontSize: "small"}}>

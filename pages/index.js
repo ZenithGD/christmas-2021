@@ -18,13 +18,10 @@ export default function Home() {
                 <div className='mainpage-content'>
                     <h1 style={{"fontFamily": 'Mountains of Christmas'}}>El árbol de los deseos</h1>
                     <p>
-                    text text text text text text text text text text text 
-                    text text text text text text text text text text text 
-                    text text text text text text text text text text text 
-                    text text text text text text text text text text text 
-                    text text text text text text text text text text text 
-                    text text text text text text text text text text text 
-                    text text text text text text text text text text text 
+                    En el día de Reyes, te envío este árbol digital para que lo decores con los deseos que te propongo.
+                    <br/> 
+                    Elige los que consideres más importantes para tu vida y tu felicidad,
+                    y recibe mi abrazo y mi cariño. 
                     </p>
                     <Link href="createtree">
                         <a className="mainpage-button">
